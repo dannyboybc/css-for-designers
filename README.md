@@ -23,6 +23,10 @@ Meyer reset
 
 ### Basic properties
 
+#### Background Image
+
+* Backround image
+
 #### Colour and Size
 
 * width
