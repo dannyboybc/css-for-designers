@@ -1,0 +1,25 @@
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.top-left {
+  background-color: green;
+  float: left;
+}
+
+.top-right {
+  background-color: red;
+  float: left;
+}
+
+.bottom-left {
+  background-color: orange;
+  float: left;
+  clear: left;
+}
+
+.bottom-right {
+  background-color: blue;
+  float: left;
+}

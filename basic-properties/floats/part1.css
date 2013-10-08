@@ -1,0 +1,36 @@
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.top-left {
+  background-color: green;
+}
+
+.top-right {
+  background-color: red;
+}
+
+.bottom-left {
+  background-color: orange;
+}
+
+.bottom-right {
+  background-color: blue;
+}

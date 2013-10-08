@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+div {
+  padding: 15px 0px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+p span {
+  font-style: italic;
+  color: CornflowerBlue;
+}
+
+div .inner {
+  font-weight: bold;
+  color: BlueViolet;
+}
+
+div.error {
+  font-weight: bold;
+}
+
+div.success {
+  background: GreenYellow;
+}

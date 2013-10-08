@@ -1,0 +1,31 @@
+/* IGNORE */
+div:nth-child(2n+1) {
+  background-color: red;
+}
+span {
+  display: block;
+}
+/**/
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #e9e9e9;
+}
+
+.padding {
+  padding: 20px 20px 20px 20px;
+}
+
+.margin {
+  margin: 20px 20px 20px 20px;
+}
+
+.padding-margin {
+  padding: 20px;
+  margin: 20px;
+}
+
+.inner {
+  padding: 20px;
+}

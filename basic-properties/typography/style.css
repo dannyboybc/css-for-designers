@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  font-size: 20px
+}
+
+.sans-serif {
+  font-family: Arial, sans-serif; /* Fallback font-stack */
+}
+
+.serif {
+  font-family: Times, serif;
+}
+
+.leading {
+  line-height: 30px;
+}
+
+.kerning {
+  letter-spacing: 5px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.also-bold {
+  font-weight: 700;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
