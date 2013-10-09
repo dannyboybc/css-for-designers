@@ -4,13 +4,14 @@
 
 * Get Chrome installed
 * Open developer console
-* Link
+* Inspect elements
+* HTML
+* CSS Link
 
 ## Basic selectors
 
 * Tags
 * Classes
-* IDs
 
 ### Resetting
 
@@ -23,15 +24,24 @@ Meyer reset
 
 ### Basic properties
 
-#### Background Image
-
-* Backround image
-
 #### Colour and Size
 
 * width
 * height
 * background-color
+
+#### Typography
+
+* font-family
+* font-size
+* font-weight
+* color
+* line-height
+* letter-spacing
+
+#### Background Image
+
+* backround-image
 
 #### Floats
 
@@ -44,11 +54,8 @@ Meyer reset
 * padding
 * margin
 
-#### Typography
+#### Links
 
-* font-family
-* font-size
-* font-weight
-* color
-* line-height
-* letter-spacing
+* <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
+* <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference>
+* <http://css-tricks.com/>

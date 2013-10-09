@@ -1,0 +1,129 @@
+@import "font-face.scss";
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@mixin clear-padding-margin {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "StagSansWeb-Book";
+  padding-bottom: 100px;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1,
+h2,
+p {
+  @include clear-padding-margin;
+}
+
+h1 {
+  font-family: "StagSansWeb-Light";
+  font-size: 60px;
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: grey;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
+blockquote {
+  font-family: "StagSansWeb-Light";
+  color: LightSeaGreen;
+  font-size: 30px;
+  font-weight: normal;
+  border-left: 10px solid LightSeaGreen;
+  margin-left: 30px;
+  padding-left: 15px;
+}
+
+header {
+  background: grey;
+  height: 200px;
+}
+
+section {
+  width: 800px;
+  margin: auto;
+}
+
+article,
+aside {
+  float: left;
+  padding-top: 60px;
+}
+
+article {
+  width: 500px;
+}
+
+aside {
+  width: 200px;
+  margin-left: 30px;
+}
+
+aside {
+  p {
+    color: DarkOrange;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 30px;
+  }
+}
+
+.question,
+.question-paragraph {
+  float: left;
+}
+
+.question {
+  $size: 150px;
+  width: $size;
+  height: $size;
+  background: LightSeaGreen;
+  border-radius: $size / 2;
+  line-height: $size;
+  text-align: center;
+  margin-left: 30px;
+
+  div {
+    color: #FFF;
+    line-height: 20px;
+    display: inline-block;
+    padding: 40px;
+
+    span { 
+      font-size: 60px;
+      font-family: "StagSansWeb-Light";
+      margin-bottom: 20px;
+      display: block;
+    }
+  }
+}
+
+.question-paragraph {
+  width: 300px;
+}
